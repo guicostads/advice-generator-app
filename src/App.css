@@ -77,6 +77,10 @@ body {
     width: 100%;
   }
 
+  .advice-box h2 {
+    padding: 0;
+  }
+
   .divider-desk {
     display: none;
   }
