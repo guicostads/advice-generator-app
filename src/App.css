@@ -38,8 +38,6 @@ body {
   display: block;
   line-height: 1.3em;
   padding: 1em;
- 
-  
 }
 
 .divider-desk {
@@ -81,8 +79,12 @@ body {
     border: solid 1px var(--NeonGreen);
   }
 
+  .advice-box p {
+    padding-bottom: 0.5rem;
+  }
+
   .advice-box h2 {
-    padding: 0;
+    padding-bottom: 1rem;
   }
 
   .divider-desk {
