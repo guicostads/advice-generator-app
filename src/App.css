@@ -31,12 +31,15 @@ body {
   font-size: 0.7rem;
   letter-spacing: 0.2em;
   color: var(--NeonGreen);
+  margin-bottom: 1rem;
 }
 
 .advice-box h2 {
   display: block;
   line-height: 1.3em;
   padding: 1em;
+ 
+  
 }
 
 .divider-desk {
@@ -74,7 +77,8 @@ body {
   }
 
   .advice-box {
-    width: 100%;
+    max-width: 90vw;
+    border: solid 1px var(--NeonGreen);
   }
 
   .advice-box h2 {
@@ -87,7 +91,11 @@ body {
 
   .divider-mobile {
     display: block;
+    width: 75%;
     position: absolute;
     top: 72%;
+    left: 12.2%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
