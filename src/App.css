@@ -37,7 +37,6 @@ body {
 .advice-box h2 {
   display: block;
   line-height: 1.3em;
-  padding: 1em;
 }
 
 .divider-desk {
@@ -67,6 +66,7 @@ body {
 .dice-circle:hover {
   box-shadow: 0 0 1.2em 1.2em rgba(23, 217, 149, 0.33);
   transition: 0.2s ease-in-out;
+  outline: none;
 }
 
 @media (max-width: 769px) {
